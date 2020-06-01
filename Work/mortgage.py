@@ -20,7 +20,7 @@ while principal > 0:
         qqq = principal
         principal = 0
         total_paid = total_paid - qqq  
-    print(month, round(total_paid,2), round(principal, 2))
+    print(f'{month} | {round(total_paid,2)} {round(principal, 2)}')
 
-print('Total paid', round(total_paid, 2))
-print('Months', month)
+print(f'Total paid: {round(total_paid, 2)}')
+print(f'Months: {month}')
