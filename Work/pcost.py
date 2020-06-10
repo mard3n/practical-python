@@ -16,7 +16,7 @@ def portfolio_cost(filename):
                 price = float(record['price'])
                 result += nshares * price
             except ValueError:
-                print(f'Row {rowno}: Bad row: {row}')
+                print(f'Ro  w {rowno}: Bad row: {row}')
     return result
 cost = portfolio_cost(filename)
 print('Total cost:', cost)
