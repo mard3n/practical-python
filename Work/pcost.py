@@ -4,6 +4,7 @@ if len(sys.argv) == 2:
     filename = sys.argv[1]
 else:
     filename = 'Data/portfolio.csv'
+    
 def portfolio_cost(filename):
     result = 0
     with open(filename, 'rt') as f:
